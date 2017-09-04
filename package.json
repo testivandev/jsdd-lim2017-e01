@@ -4,7 +4,9 @@
   "description": "Ejercicios de JS Deep Dive - Educación Continua",
   "main": "app.js",
   "scripts": {
-    "test": "echo 'No script found'"
+    "test": "npm run linter && npm run jest",
+		"linter": "eslint es6",
+    "jest": "jest"
   },
   "repository": {
     "type": "git",
